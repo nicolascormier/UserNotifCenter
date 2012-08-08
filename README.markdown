@@ -1,6 +1,3 @@
-
-UserNotifCenter
-================
 Command line tool for sending custom notifications to OSX Notification Center.
 
 Example: 
