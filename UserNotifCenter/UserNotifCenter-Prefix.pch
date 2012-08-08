@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'UserNotifCenter' target in the 'UserNotifCenter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

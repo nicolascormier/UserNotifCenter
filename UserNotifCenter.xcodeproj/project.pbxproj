@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1D106015D262FA00289371 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1D105F15D262FA00289371 /* Cocoa.framework */; };
+		5D1D106A15D262FA00289371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D106815D262FA00289371 /* InfoPlist.strings */; };
+		5D1D106C15D262FA00289371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D106B15D262FA00289371 /* main.m */; };
+		5D1D107015D262FA00289371 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D106E15D262FA00289371 /* Credits.rtf */; };
+		5D1D107315D262FB00289371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D107215D262FB00289371 /* AppDelegate.m */; };
+		5D1D107615D262FB00289371 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D107415D262FB00289371 /* MainMenu.xib */; };
+		5D1D107F15D2672A00289371 /* Messages.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D107E15D2672A00289371 /* Messages.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D1D105B15D262FA00289371 /* UserNotifCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserNotifCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1D105F15D262FA00289371 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5D1D106215D262FA00289371 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5D1D106315D262FA00289371 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5D1D106415D262FA00289371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D1D106715D262FA00289371 /* UserNotifCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserNotifCenter-Info.plist"; sourceTree = "<group>"; };
+		5D1D106915D262FA00289371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D1D106B15D262FA00289371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D1D106D15D262FA00289371 /* UserNotifCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UserNotifCenter-Prefix.pch"; sourceTree = "<group>"; };
+		5D1D106F15D262FA00289371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5D1D107115D262FB00289371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D1D107215D262FB00289371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D1D107515D262FB00289371 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5D1D107E15D2672A00289371 /* Messages.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Messages.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D1D105815D262FA00289371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1D106015D262FA00289371 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1D105015D262FA00289371 = {
+			isa = PBXGroup;
+			children = (
+				5D1D107E15D2672A00289371 /* Messages.icns */,
+				5D1D106515D262FA00289371 /* UserNotifCenter */,
+				5D1D105E15D262FA00289371 /* Frameworks */,
+				5D1D105C15D262FA00289371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D1D105C15D262FA00289371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D105B15D262FA00289371 /* UserNotifCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1D105E15D262FA00289371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D105F15D262FA00289371 /* Cocoa.framework */,
+				5D1D106115D262FA00289371 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D1D106115D262FA00289371 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D106215D262FA00289371 /* AppKit.framework */,
+				5D1D106315D262FA00289371 /* CoreData.framework */,
+				5D1D106415D262FA00289371 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5D1D106515D262FA00289371 /* UserNotifCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D107115D262FB00289371 /* AppDelegate.h */,
+				5D1D107215D262FB00289371 /* AppDelegate.m */,
+				5D1D107415D262FB00289371 /* MainMenu.xib */,
+				5D1D106615D262FA00289371 /* Supporting Files */,
+			);
+			path = UserNotifCenter;
+			sourceTree = "<group>";
+		};
+		5D1D106615D262FA00289371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D106715D262FA00289371 /* UserNotifCenter-Info.plist */,
+				5D1D106815D262FA00289371 /* InfoPlist.strings */,
+				5D1D106B15D262FA00289371 /* main.m */,
+				5D1D106D15D262FA00289371 /* UserNotifCenter-Prefix.pch */,
+				5D1D106E15D262FA00289371 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D1D105A15D262FA00289371 /* UserNotifCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1D107915D262FB00289371 /* Build configuration list for PBXNativeTarget "UserNotifCenter" */;
+			buildPhases = (
+				5D1D105715D262FA00289371 /* Sources */,
+				5D1D105815D262FA00289371 /* Frameworks */,
+				5D1D105915D262FA00289371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserNotifCenter;
+			productName = UserNotifCenter;
+			productReference = 5D1D105B15D262FA00289371 /* UserNotifCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D1D105215D262FA00289371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Nicolas Cormier";
+			};
+			buildConfigurationList = 5D1D105515D262FA00289371 /* Build configuration list for PBXProject "UserNotifCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D1D105015D262FA00289371;
+			productRefGroup = 5D1D105C15D262FA00289371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D1D105A15D262FA00289371 /* UserNotifCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D1D105915D262FA00289371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1D106A15D262FA00289371 /* InfoPlist.strings in Resources */,
+				5D1D107015D262FA00289371 /* Credits.rtf in Resources */,
+				5D1D107615D262FB00289371 /* MainMenu.xib in Resources */,
+				5D1D107F15D2672A00289371 /* Messages.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1D105715D262FA00289371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1D106C15D262FA00289371 /* main.m in Sources */,
+				5D1D107315D262FB00289371 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D1D106815D262FA00289371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1D106915D262FA00289371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D1D106E15D262FA00289371 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1D106F15D262FA00289371 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5D1D107415D262FB00289371 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1D107515D262FB00289371 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D1D107715D262FB00289371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D1D107815D262FB00289371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D1D107A15D262FB00289371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserNotifCenter/UserNotifCenter-Prefix.pch";
+				INFOPLIST_FILE = "UserNotifCenter/UserNotifCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D1D107B15D262FB00289371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UserNotifCenter/UserNotifCenter-Prefix.pch";
+				INFOPLIST_FILE = "UserNotifCenter/UserNotifCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1D105515D262FA00289371 /* Build configuration list for PBXProject "UserNotifCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1D107715D262FB00289371 /* Debug */,
+				5D1D107815D262FB00289371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1D107915D262FB00289371 /* Build configuration list for PBXNativeTarget "UserNotifCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1D107A15D262FB00289371 /* Debug */,
+				5D1D107B15D262FB00289371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D1D105215D262FA00289371 /* Project object */;
+}
